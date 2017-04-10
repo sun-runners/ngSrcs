@@ -27,7 +27,7 @@ $scope.image3 = 'image3.jpg';
 ```
 
 ```
-<img ng-srcs="['image1.jpg','image2.jpg','image3]"/>
+<img ng-srcs="['image1.jpg','image2.jpg',image3]"/>
 ```
 
 If **image1.jpg** and **image2.jpg** are invalid, **image3.jpg** will be shown.
