@@ -1,0 +1,39 @@
+{
+  "name": "ng-srcs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/KimSunWook/ng-srcs",
+  "authors": [
+    "Kim Sun Wook <sunus7@naver.com>"
+  ],
+  "description": "A library that can have multiple ng-src in case the image fails.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hellsan631/angular-fullpage.js.git"
+  },
+  "main": "ng-srcs.js,ng-srcs.min.js",
+  "ignore": [
+    ".jshintrc",
+    ".editorconfig",
+    ".sass-cache",
+    "npm-debug.log",
+    "sample",
+    "node_modules",
+    "bower_components",
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0"
+  },
+  "keywords": [
+    "angularjs",
+    "ng-src",
+    "image",
+    "multiple",
+    "fail"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
