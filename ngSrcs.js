@@ -34,7 +34,7 @@
           };
 
           // Element Section
-          angular.element(element).error(function (value) {
+          angular.element(element).bind('error', function (value) {
             if(!(index<scope.ng_srcs.length)){
               return;
             }
