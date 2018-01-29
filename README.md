@@ -3,11 +3,11 @@ ngSrcs
 
 Show valid images among multiple images
 
-
+<br/>
 
 DEMO
 -------
-https://kimsunwook.github.io/ngLoadingButton/index
+https://kimsunwook.github.io/ngSrcs/index
 
 
 
@@ -18,7 +18,7 @@ INSTALL
 bower install ngSrcs --save
 ```
 
-
+<br/>
 
 usage
 -----
@@ -46,6 +46,6 @@ $scope.image3 = 'image3.jpg'; // FOUND
 
 If **image1.jpg** and **image2.jpg** are invalid, **image3.jpg** will be shown.
 
-
+<br/>
 
 Easy!
