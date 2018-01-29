@@ -2,6 +2,7 @@
   "name": "ng-srcs",
   "version": "0.0.2",
   "homepage": "https://github.com/KimSunWook/ngSrcs",
+  "main": "ngSrcs.js",
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
@@ -10,33 +11,41 @@
     "type": "git",
     "url": "git@github.com:KimSunWook/ngSrcs.git"
   },
-  "main": "ngSrcs.js",
-  "ignore": [
-    ".jshintrc",
-    ".editorconfig",
-    ".sass-cache",
-    "npm-debug.log",
-    "sample",
-    "node_modules",
-    "bower_components",
-    "**/.*",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "angular": ">=1.2.0"
-  },
   "keywords": [
     "ngSrcs",
     "ngSrc",
     "ng-srcs",
-    "ng-src",
-    "angularjs",
-    "image",
-    "multiple",
-    "fail"
+    "ng-src"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "license": "MIT",
+  "dependencies": {
+    "angular": ">=1.2.0"
+  },
   "devDependencies": {
+    "angular": "~1.5.8",
+    "angular-animate": "~1.5.8",
+    "angular-aria": "~1.5.8",
+    "angular-cookies": "~1.5.8",
+    "angular-messages": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "angular-route": "~1.5.8",
+    "angular-sanitize": "~1.5.8",
+    "angular-touch": "~1.5.8",
+    "angular-ui-router": "~0.3.1",
+    "angular-material": "^1.1.4",
+    "animate.css": "^3.5.2",
+    "ng-lodash": "^0.5.0",
+    "cssist": "*",
+    "animejs": "^2.2.0"
+  },
+  "resolutions": {
+    "angular": "~1.5.8"
   }
 }
