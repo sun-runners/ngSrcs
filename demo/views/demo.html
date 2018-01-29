@@ -1,29 +1,12 @@
 <div class="w-100 h-100">
-  <div full-page class="section f-l" options="{ scrollingSpeed: 500, controlArrows: false }">
-  	<div class="w-100 h-100 slide z-1" ng-repeat="mode in modes">
-      <div class="w-60 xw-300px cen">
-        <div class="w-100">
-          <ng-loading-button
-            class="w-100 h-90px bo-we bo-3px bor-50px f-18px fw-b c-we o-h f-n ls-1o5px"
-            nlb-loading="mode.loading"
-            nlb-mode="mode.value"
-            nlb-text="mode.text"
-            nlb-color="'white'"
-            ng-click="load(mode);">
-            {{mode.value}}
-          </ng-loading-button>
-        </div>
-      </div>
-    </div>
-    <button class="p-a w-20 h-60px cen-y c-we l-0 z-2" ng-click="movePrev();">
-      <div class="p-r w-100 h-100">
-        <i class="ion-arrow-left-b f-30px cen"></i>
-      </div>
-    </button>
-    <button class="p-a w-20 h-60px cen-y c-we r-0 z-2" ng-click="moveNext();">
-      <div class="p-r w-100 h-100">
-        <i class="ion-arrow-right-b f-30px cen"></i>
-      </div>
-    </button>
-  </div>
+  <canvas id="granim-canvas" class="p-a w-100 h-100 t-0 l-0 z-1"></canvas>
+  <img class="d-b w-100 z-2 cen" ng-srcs="[
+    'not_exist1.jpg',
+    'not_exist2.jpg',
+    'not_exist3.jpg',
+    'not_exist4.jpg',
+    'not_exist5.jpg',
+    'not_exist6.jpg',
+    'demo/images/image_404.jpg'
+  ]">
 </div>

@@ -46,4 +46,21 @@ angular.module('app')
 			$scope.loading = false;
 		});
 
+		var granimInstance = new Granim({
+		   element: '#granim-canvas',
+			 direction: 'radial',
+		   name: 'granim',
+		   opacity: [1, 1],
+		   states : {
+					"default-state": {
+						gradients: [
+							['#212121', '#424242'],
+							['#616161', '#757575'],
+							['#757575', '#616161'],
+							['#424242', '#212121']
+						]
+					}
+		   }
+		});
+
 });

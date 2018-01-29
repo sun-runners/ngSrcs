@@ -13,7 +13,7 @@ bower install ngSrcs --save
 usage
 -----
 
-Make sure you include the module in your application config
+Make sure you include the module 'ngSrcs' in your application config
 
 ```
 angular.module('myApp', [
@@ -22,12 +22,16 @@ angular.module('myApp', [
 ]);
 ```
 
+You can give multiple urls to an image tag.
+
 ```
-$scope.image3 = 'image3.jpg';
+$scope.image1 = 'image1.jpg'; // NOT_FOUND
+$scope.image2 = 'image2.jpg'; // NOT_FOUND
+$scope.image3 = 'image3.jpg'; // FOUND
 ```
 
 ```
-<img ng-srcs="['image1.jpg','image2.jpg',image3]"/>
+<img ng-srcs="[image1, image2, image3]"/>
 ```
 
 If **image1.jpg** and **image2.jpg** are invalid, **image3.jpg** will be shown.

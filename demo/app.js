@@ -5,7 +5,7 @@ angular.module('app', [
     'ngAria',
     'ngResource',
     'ngMaterial',
-    'fullPage.js'
+    'ngSrcs'
   ]).run(function($rootScope, $timeout, $state){
 
   $rootScope.window = window;
