@@ -21,7 +21,8 @@
     "**",
     "*.json",
     "webpack.config.js",
-    "*.md"
+    "*.md",
+    "CNAME"
   ],
   "license": "MIT",
   "dependencies": {

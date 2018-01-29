@@ -1,6 +1,6 @@
 {
   "name": "ng-srcs",
-  "version": "0.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/KimSunWook/ngSrcs",
   "main": "ngSrcs.js",
   "authors": [
@@ -18,16 +18,14 @@
     "ng-src"
   ],
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "**",
+    "*.json",
+    "webpack.config.js",
+    "*.md"
   ],
   "license": "MIT",
   "dependencies": {
-    "angular": ">=1.2.0",
-    "granim": "^1.1.0"
+    "angular": ">=1.2.0"
   },
   "devDependencies": {
     "angular": "~1.5.8",
@@ -44,7 +42,8 @@
     "animate.css": "^3.5.2",
     "ng-lodash": "^0.5.0",
     "cssist": "*",
-    "animejs": "^2.2.0"
+    "animejs": "^2.2.0",
+    "ng-srcs": "ngSrcs#*"
   },
   "resolutions": {
     "angular": "~1.5.8"

@@ -1,5 +1,6 @@
 {
   "name": "ng-srcs",
+  "version": "1.0.5",
   "homepage": "https://github.com/KimSunWook/ngSrcs",
   "main": "ngSrcs.js",
   "authors": [
@@ -17,16 +18,14 @@
     "ng-src"
   ],
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "**",
+    "*.json",
+    "webpack.config.js",
+    "*.md"
   ],
   "license": "MIT",
   "dependencies": {
-    "angular": ">=1.2.0",
-    "granim": "^1.1.0"
+    "angular": ">=1.2.0"
   },
   "devDependencies": {
     "angular": "~1.5.8",
@@ -43,19 +42,20 @@
     "animate.css": "^3.5.2",
     "ng-lodash": "^0.5.0",
     "cssist": "*",
-    "animejs": "^2.2.0"
+    "animejs": "^2.2.0",
+    "ng-srcs": "ngSrcs#*"
   },
   "resolutions": {
     "angular": "~1.5.8"
   },
-  "_release": "323aa6bd23",
+  "_release": "1.0.5",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "323aa6bd2337077ec97e5cbf3bda39aba0d7d80c"
+    "type": "version",
+    "tag": "v1.0.5",
+    "commit": "3c7ffbcc724f961fb9ef78c0fd362e93219a6867"
   },
   "_source": "https://github.com/KimSunWook/ngSrcs.git",
-  "_target": "*",
-  "_originalSource": "ngSrcs",
+  "_target": "^1.0.5",
+  "_originalSource": "ng-srcs",
   "_direct": true
 }
