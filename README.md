@@ -7,7 +7,7 @@ Show valid images among multiple images
 
 DEMO
 -------
-https://kimsunwook.github.io/ngSrcs/index
+https://kimsunwook.github.io/ngSrcs
 
 
 
