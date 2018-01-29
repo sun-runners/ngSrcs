@@ -18,11 +18,10 @@
     "ng-src"
   ],
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "**",
+    "*.json",
+    "webpack.config.js",
+    "*.md"
   ],
   "license": "MIT",
   "dependencies": {
