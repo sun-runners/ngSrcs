@@ -9,13 +9,35 @@ DEMO
 -------
 https://kimsunwook.github.io/ngSrcs
 
-
+<br/>
 
 INSTALL
 -------
 
 ```
 bower install ngSrcs --save
+```
+
+<br/>
+
+Quick start
+-------
+Copy-paste the stylesheet <script> into your <body>.
+
+```
+<script src=".bower_components/ngSrcs/ngSrcs.js"></script>
+```
+or
+```
+<script src=".bower_components/ngSrcs/ngSrcs.min.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngSrcs/master/ngSrcs.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngSrcs/master/ngSrcs.min.js"></script>
 ```
 
 <br/>
