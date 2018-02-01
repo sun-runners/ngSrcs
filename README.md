@@ -25,11 +25,11 @@ Quick start
 Copy-paste the stylesheet <script> into your <body>.
 
 ```
-<script src=".bower_components/ngSrcs/ngSrcs.js"></script>
+<script src=".bower_components/ng-srcs/ngSrcs.js"></script>
 ```
 or
 ```
-<script src=".bower_components/ngSrcs/ngSrcs.min.js"></script>
+<script src=".bower_components/ng-srcs/ngSrcs.min.js"></script>
 ```
 or
 ```
