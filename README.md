@@ -24,6 +24,8 @@ Quick start
 -------
 Copy-paste the ```<script>``` into your ```<body>```.
 
+### ngSrcs.js
+
 ```
 <script src=".bower_components/ng-srcs/ngSrcs.js"></script>
 ```
