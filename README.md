@@ -22,7 +22,7 @@ bower install ngSrcs --save
 
 Quick start
 -------
-Copy-paste the stylesheet <script> into your <body>.
+Copy-paste the ```<script>``` into your ```<body>```.
 
 ```
 <script src=".bower_components/ng-srcs/ngSrcs.js"></script>
