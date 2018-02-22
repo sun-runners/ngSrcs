@@ -2,7 +2,7 @@
   "name": "ng-srcs",
   "version": "1.0.5",
   "homepage": "https://github.com/KimSunWook/ngSrcs",
-  "main": "ngSrcs.js",
+  "main": ["ngSrcs.js", "ngSrcs.min.js"],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
