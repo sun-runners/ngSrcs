@@ -45,8 +45,5 @@
     "cssist": "*",
     "animejs": "^2.2.0",
     "ng-srcs": "ngSrcs#*"
-  },
-  "resolutions": {
-    "angular": "~1.5.8"
   }
 }
