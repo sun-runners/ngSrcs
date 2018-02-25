@@ -31,15 +31,7 @@ Copy-paste the ```<script>``` into your ```<body>```.
 ```
 or
 ```
-<script src=".bower_components/ng-srcs/ngSrcs.min.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSrcs/v1.1.2/ngSrcs.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSrcs/v1.1.2/ngSrcs.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngSrcs/v1.1.3/ngSrcs.js"></script>
 ```
 
 <br/>

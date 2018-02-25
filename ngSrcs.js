@@ -50,7 +50,6 @@
             index = 0;
             setNextSrcOfElement();
           });
-          console.log(scope.ng_srcs);
         },
         scope: {
           ng_srcs:"=ngSrcs"
@@ -58,4 +57,4 @@
         restrict: 'A',
       };
     }]);
-})(angular);
+  })(angular);
